@@ -1,0 +1,32 @@
+{
+  "name": "eslint-import-resolver-reactnative",
+  "version": "1.0.0",
+  "description": "React Native module resolution plugin for eslint-plugin-import",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/guzart/eslint-import-resolver-reactnative.git"
+  },
+  "author": "Arturo Guzman",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/guzart/eslint-import-resolver-reactnative/issues"
+  },
+  "homepage": "https://github.com/guzart/eslint-import-resolver-reactnative#readme",
+  "dependencies": {
+    "eslint-import-resolver-node": "^0.2.3",
+    "find-root": "^1.0.0"
+  },
+  "eslintConfig": {
+    "extends": "eslint:recommended",
+    "env": {
+      "node": true
+    }
+  },
+  "devDependencies": {
+    "eslint": "^3.8.1"
+  }
+}
