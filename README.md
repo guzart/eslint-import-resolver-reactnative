@@ -1,6 +1,6 @@
 # eslint-import-resolver-reactnative
 
-[![npm](https://img.shields.io/npm/v/eslint-import-resolver-node.svg)](https://www.npmjs.com/package/eslint-import-resolver-reactnative)
+[![npm](https://img.shields.io/npm/v/eslint-import-resolver-reactnative.svg)](https://www.npmjs.com/package/eslint-import-resolver-reactnative)
 
 React Native module resolution plugin for [`eslint-plugin-import`](https://www.npmjs.com/package/eslint-plugin-import).
 
