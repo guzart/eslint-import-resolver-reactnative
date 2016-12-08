@@ -9,3 +9,15 @@ Uses [`eslint-import-resolver-node`](https://www.npmjs.com/package/eslint-import
   * Configures extensions for React Native `['.js', '.json', '.android.js', '.ios.js']`
   * Helps resolve project name paths to the root ([`eslint-plugin-import#626`](https://github.com/benmosher/eslint-plugin-import/issues/626))
 
+
+## Usage
+
+```bash
+npm install --save-dev eslint-import-resolver-reactnative
+```
+
+```
+// .eslintrc
+settings:
+  import/resolver: reactnative
+```
