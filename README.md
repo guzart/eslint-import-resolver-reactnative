@@ -16,8 +16,28 @@ Uses [`eslint-import-resolver-node`](https://www.npmjs.com/package/eslint-import
 npm install --save-dev eslint-import-resolver-reactnative
 ```
 
+Configure ESLint to use this plugin.
+
 ```
 // .eslintrc
 settings:
   import/resolver: reactnative
 ```
+
+Use your project's name as part of the import path.
+
+```
+// package.json
+{
+  "name": "cool-project"
+}
+```
+
+```
+import Button from 'cool-project/components/button';
+// imports a file located at <PROJECT_ROOT>/components/button.js (or button.android.js or button.ios.js)
+
+// ...
+```
+
+Notice that this plugin will resolve your project's name to your project's root folder.
