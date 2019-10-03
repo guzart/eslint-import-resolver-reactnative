@@ -7,7 +7,7 @@ var log = require('debug')('eslint-plugin-import:resolver:reactnative');
 function pluginSettings(settings) {
   return Object.assign(
     {
-      extensions: ['.js', '.json', '.android.js', '.ios.js'],
+      extensions: ['.js', '.json', '.android.js', '.ios.js', '.native.js', '.web.js'],
     },
     settings
   );
